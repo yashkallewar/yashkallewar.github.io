@@ -29,21 +29,31 @@
   }
   .details {
     width: 50%;
+    padding: auto 10px;
     float: right;
-    h3{
-        width: fit-content;
-        border-bottom:3px solid #ff5e5e !important;
+    h3 {
+      width: fit-content;
+      border-bottom: 3px solid #ff5e5e !important;
     }
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-gap: 10px;
-        i{
-            font-size:50px ;
-        }
-        img{
-            filter: invert();
-        }
+    .grid {
+      margin:50px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      i {
+        font-size: 50px;
+      }
+      img {
+        filter: invert();
+      }
+      div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        margin: 20px 0;
+      }
     }
   }
 }
