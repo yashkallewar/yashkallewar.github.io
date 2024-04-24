@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navBar{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px ;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        align-items:center;
+        justify-content: center;
+        gap: 20px;
+        a{
+            text-decoration: none;
+            font-size: 18px;
+        }
+    }
+}
