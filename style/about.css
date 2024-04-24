@@ -1,0 +1,49 @@
+.about {
+  padding: 10px 50px;
+
+  h2 {
+    width: fit-content;
+    &:after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 4px;
+      background: #ff5e5e;
+      margin: 0 auto;
+      margin-top: 15px;
+      border-radius: 3px;
+    }
+  }
+  .img-holder {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      display: block;
+      width: 300px;
+      border-radius: 30px;
+      filter: drop-shadow(0px 0px 50px #687cff60);
+    }
+  }
+  .details {
+    width: 50%;
+    float: right;
+    h3{
+        width: fit-content;
+        border-bottom:3px solid #ff5e5e !important;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 10px;
+        i{
+            font-size:50px ;
+        }
+        img{
+            filter: invert();
+        }
+    }
+  }
+}
