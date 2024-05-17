@@ -11,11 +11,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+
     <!-- font awsome -->
     <link
       rel="stylesheet"
@@ -28,9 +24,11 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Yash kallewar</a>
+        <a class="navbar-brand fw-lighter fs-1 text-light" href="#"
+          >Yash kallewar</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -75,8 +73,8 @@
             <div
               class="d-flex flex-column justify-content-center py-5 my-5 gap-3"
             >
-              <h1 class="text-danger">hii, i'm yash kallewar</h1>
-              <h3 class="text-warning">Frontend Developer</h3>
+              <h1 class="text-danger">Hi, I'm Yash Kallewar</h1>
+              <h3 style="color: turquoise">Frontend Developer</h3>
               <div>
                 <a href="" class="btn text-white btn-danger me-4"
                   >Download CV</a
@@ -85,29 +83,35 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img src="./assets/1st.png" alt="" class="img-fluid"/>
+            <img src="./assets/1st.png" alt="" class="img-fluid" />
           </div>
         </div>
       </section>
       <section class="aboutUs my-3">
         <div class="row">
-          <div class="col-md-6 py-5">
-            <h2 class="mb-5">About Me</h2>
-            <p>
-              I am a dedicated Computer Science graduate with a Bachelor's
-              degree, currently pursuing a Master's degree at Gondwana
-              University. I have recently completed a Full Stack Web Development
-              course at Alpha Academy through NASSCOM. Throughout my training, I
-              have worked on several live projects, including Project1,
-              Project2, and Project3. I am now seeking an opportunity to start
-              my career with a dynamic organization where I can contribute my
-              skills and grow professionally.
-            </p>
-          </div>
           <div class="col-md-6">
             <div class="d-flex justify-content-center align-items-center">
-              <img src="./assets/yash profile img.png" alt="" width="250px" class="img-fluid" />
+              <img
+                src="./assets/yash profile img.png"
+                alt=""
+                width="250px"
+                class="img-fluid"
+              />
             </div>
+          </div>
+          <div class="col-md-6 py-5">
+            <h2 class="mb-5">About Me</h2>
+            <p style="text-align: justify">
+              <span class="fs-3 fw-bold">I</span> am a dedicated Computer
+              Science graduate with a Bachelor's degree, currently pursuing a
+              Master's degree at Gondwana University. I have recently completed
+              a Full Stack Web Development course at Alpha Academy through
+              NASSCOM. Throughout my training, I have worked on several live
+              projects, including Project1, Project2, and Project3. I am now
+              seeking an opportunity to start my career with a dynamic
+              organization where I can contribute my skills and
+              grow professionally.
+            </p>
           </div>
         </div>
       </section>
@@ -124,11 +128,34 @@
           <i class="fa-brands fa-figma fa-fade mx-2"></i>
         </marquee>
       </section>
-      <section class="projects"></section>
-      <section class="contactUs my-3 bg-danger rounded py-5" id="ContactUs">
+      <section class="certificates"></section>
+      <section class="projects">
+        <h2 class="my-3">Projects</h2>
+        <div class="grid">
+          <div class="box">
+            <div class="img-holder"></div>
+            <div class="info-holder"></div>
+          </div>
+          <div class="box">
+            <div class="img-holder"></div>
+            <div class="info-holder"></div>
+          </div>
+          <div class="box">
+            <div class="img-holder"></div>
+            <div class="info-holder"></div>
+          </div>
+          <div class="box">
+            <div class="img-holder"></div>
+            <div class="info-holder"></div>
+          </div>
+        </div>
+      </section>
+      <footer class="contactUs my-3 bg-danger rounded pt-5 pb-3" id="ContactUs">
         <div class="row">
           <div class="col-md-6">
-            <div class="bg-light text-dark w-75 h-100 py-3 rounded-end-5">
+            <div
+              class="bg-light text-dark w-75 h-100 py-3 rounded-end-5 contactUs-holder"
+            >
               <h2 class="text-center my-3">Contact Us</h2>
               <ul>
                 <li class="text-dark list-unstyled">
@@ -141,7 +168,7 @@
                 </li>
                 <li class="text-dark list-unstyled">
                   <i class="fa-solid fa-envelope text-dark me-2"></i>
-                  
+
                   <a
                     href="mailto:yashkallewar12@gmail.com"
                     class="text-decoration-none text-dark"
@@ -149,16 +176,32 @@
                   >
                 </li>
               </ul>
+              <div class="d-flex gap-5 ms-5">
+                <a href="">
+                  <i class="fa-brands fa-instagram text-dark fs-3"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin text-dark fs-3"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-whatsapp text-dark fs-3"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-github text-dark fs-3"></i>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 text-light d-flex justify-content-center align-items-center">
+          <div
+            class="col-md-6 text-light d-flex justify-content-center align-items-center mt-3"
+          >
             <div class="form">
               <form action="">
                 <input
                   type="text"
                   name="FullName"
                   id=""
-                  class="text-light my-2 w-100 bg-transparent rounded p-1"
+                  class="text-light my-2 bg-transparent rounded p-1"
                   placeholder="Full Name "
                 />
                 <br />
@@ -166,7 +209,7 @@
                   type="text"
                   name="MobileN0"
                   id=""
-                  class="text-light my-2 w-100 bg-transparent rounded p-1"
+                  class="text-light my-2 bg-transparent rounded p-1"
                   placeholder="Mobile No."
                 />
                 <br />
@@ -174,35 +217,29 @@
                   type="text"
                   name="Emailid"
                   id=""
-                  class="text-light my-2 w-100 bg-transparent rounded p-1"
+                  class="text-light my-2 bg-transparent rounded p-1"
                   placeholder="Emain id"
                 />
                 <br />
                 <input
                   type="submit"
                   value="Submit"
-                  class="text-light my-2 w-100 bg-transparent rounded py-1"
+                  class="text-light my-2 fw-bold fs-5 bg-transparent rounded py-1"
                 />
               </form>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="bg-danger py-2">
-      <div class="container px-5">
-        <h3 class="text-center">Yash Kallewar</h3>
-        <div class="px-5 fs-1 text-center">
-          <i class="fa-brands fa-instagram mx-4"></i>
-          <i class="fa-brands fa-linkedin mx-4"></i>
-          <i class="fa-brands fa-whatsapp mx-4"></i>
-          <i class="fa-brands fa-github mx-4"></i>
-        </div>
-        <hr />
+        <hr class="mx-5">
         <p class="text-center p-0 m-0">
-          All Copyrights &copy; 2024 are Reserve by Yash kallewar
+          All Copyrights&copy; 2024 are Reserve by Yash kallewar
         </p>
-      </div>
-    </footer>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
