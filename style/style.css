@@ -55,6 +55,41 @@ nav {
     }
   }
 }
+.aboutUs {
+  .box {
+    height: 300px;
+    width: 200px;
+    background: #dc3545;
+    position: relative;
+    z-index: 1;
+  }
+  .box1 {
+    height: 300px;
+    width: 200px;
+    background: #dc3545;
+    position: relative;
+    z-index: 1;
+    transform: rotate(40deg);
+    bottom: -10;
+    border-radius: 10px 40%;
+    right: -10%;
+  }
+  .box2 {
+    height: 300px;
+    width: 200px;
+    background: #dc3545;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(110deg);
+    border-radius: 40% 10px;
+    bottom: -0%;
+    right: -100;
+  }
+  img {
+    position: absolute;
+    z-index: 99;
+  }
+}
 .contactUs {
   input {
     border: none;
@@ -90,6 +125,17 @@ nav {
         border-radius: 10px;
         transition: 0.5s ease-in-out;
       }
+    }
+  }
+}
+
+.services {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    .box{
+      text-align: center;
     }
   }
 }
