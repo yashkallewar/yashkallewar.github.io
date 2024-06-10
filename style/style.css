@@ -74,7 +74,7 @@ nav {
     border-radius: 10px 40%;
     right: -10%;
   }
-  .box2 {
+  /* .box2 {
     height: 300px;
     width: 200px;
     background: #dc3545;
@@ -84,7 +84,7 @@ nav {
     border-radius: 40% 10px;
     bottom: -0%;
     right: -100;
-  }
+  } */
   img {
     position: absolute;
     z-index: 99;
