@@ -16,6 +16,7 @@ html {
 }
 body {
   background: #000e19;
+  overflow-x: hidden;
 }
 nav {
   .nav-item {
@@ -115,16 +116,17 @@ nav {
       border-radius: 10px;
       overflow: hidden;
       padding: 5px;
+      transition: all 0.5s ease-in-out;
       &:hover img {
-        transform: scale(1.04);
+        transform: scale(1.1);
       }
-      img {
-        display: block;
-        object-fit: cover;
-        object-position: center;
-        border-radius: 10px;
-        transition: 0.5s ease-in-out;
-      }
+    }
+    img {
+      display: block;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+      transition: all 0.5s ease-in-out;
     }
   }
 }
@@ -134,7 +136,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
-    .box{
+    .box {
       text-align: center;
     }
   }
